@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+}
+
+.nava-logo {
+    height: 50px;
+    width: 100px;
+    display: inline;
+}
+
+.logo {
+    height: 50px;
+
+    width: 100px;
+    background-image: url(../images/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.border {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2Px;
+}
+
+.border:hover {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.address-first {
+    color: white;
+    font-size: 1rem;
+    margin-left: 12px;
+
+}
+
+.second-address {
+    color: white;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    width: 620px;
+    background-color: pink;
+    border-radius: 4px;
+    height: 50px;
+    justify-content: space-evenly;
+    border-radius: 6px;
+}
+
+.search-select {
+
+    width: 45px;
+    text-align: center;
+    /* background-color: #0f1111; */
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    height: 46px;
+
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search-input:hover {
+    border-color: orange;
+    border-style: solid;
+}
+
+.search-icon {
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    background-color: rgb(255, 196, 0);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+.help-Section {
+    font-size: 14Px;
+    color: white
+}
+
+.Account-Section {
+
+    font-size: 16px;
+    color: white;
+}
+
+.options {
+    background-color: #0f1111;
+    color: white;
+    border-color: #0f1111;
+}
+
+.cart-section {
+
+    color: white;
+    height: 30px;
+    width: 90px;
+    font-size: 30px;
+    display: flex;
+
+}
+
+.cart {
+    color: white;
+    font-size: 1rem;
+    height: 15px;
+    width: 28px;
+
+
+}
+
+.cart-count {
+    color: white;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.panel{
+    background-color: lab(19.08% 1.1 -16.4);
+    height: 39px;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-options{
+    width: 83%;
+    font-size: 17px;
+
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section{
+
+background-image :url(../images/hero_images.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.hero-section-text{
+    color: #0f1111;
+    background-color: white;
+    height: 40px;
+    margin-bottom: -400px;
+    width:80%;
+    align-items: center ;
+    justify-content:center;
+    font-size: 14px;
+    display: flex;
+
+    
+}
+.hero-section-text a{
+    color: #2162A1;
+    text-decoration: none;
+
+
+}
+.shop-section{
+    display:flex;
+    margin:10px;
+    background-color: rgb(217, 237, 237);
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop-Section-per-box{
+height: 100%;
+width: 350px;
+border-color: white;
+border-style: solid;
+border-width: 2px;
+margin: 10px;
+background-color: white;
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+.box-images1{
+    background-image: url(../images/Game.jpg);
+    background-size: cover;
+    height: 250px;  
+    width: 318px;
+    }
+.content{
+    background-size: cover;
+    background-image: url(../images/Game.jpg) ;
+    height: 250px ;
+    width: 318px;
+   
+    
+}
+.content-margin{
+    margin-left: 10px;
+    margin-right: 10Px;
+    margin-top: 10px;
+}
+.footer{
+    margin: 10px;;
+}
+ .footer-address-first 
+{
+    background-color: #485769;
+    color: white;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer-address-second
+{    
+    color: white;
+    display: inline;   
+    background-color: #232F3E;
+    display: grid;
+}
+.navAccessibility {
+    margin: 0 auto 20px auto;
+    width: 70%;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-around;
+}
+.navAccessibility li {
+    list-style: none;
+    margin: 5px 0px;
+}
+.navAccessibility div
+{
+    margin: 15px 0px;
+    font-size: 16px ;
+    font-weight: bold;
+}
+.navAccessibility a
+{
+    font-size: 14px;
+}
+.see-more{
+   font-size: 16px;
+    margin-top: auto;
+    padding: 20px 0 5px 9px;}
+
